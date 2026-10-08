@@ -1,0 +1,401 @@
+[
+  {
+    "path": "images/ref26/04_p003_recycler_sensor_map.png",
+    "bytes": 382329,
+    "sha256": "880b98a9c9e7fe57223131ac7e28305cc190740b431cc859ffe7cb0bf5583adc",
+    "width": 2547,
+    "height": 1688
+  },
+  {
+    "path": "images/ref26/04_p002_deposit_sensor_map.png",
+    "bytes": 327258,
+    "sha256": "26aa56901c262d204e142fecdbcb4c5e7b7f44d7d7618e39065120d2157e7c9c",
+    "width": 2543,
+    "height": 1520
+  },
+  {
+    "path": "images/ref26/01_p051_pocket_1.png",
+    "bytes": 604205,
+    "sha256": "ef7cbea1c2438bec7fdc06ac7d661d25439f372713bed0d13e352d4c27ff67df",
+    "width": 3130,
+    "height": 1958
+  },
+  {
+    "path": "images/ref26/01_p051_pocket_2.png",
+    "bytes": 466216,
+    "sha256": "0b2aa8a1610486bcc863b5e04fbc316f5c767e2403f906d1233a84d0aadfe16e",
+    "width": 3085,
+    "height": 1730
+  },
+  {
+    "path": "images/ref26/01_p054_front_transport.png",
+    "bytes": 298144,
+    "sha256": "6cd4d74a7aa600b93d8ea8963ca24cc5547776758828665a285df1b13b199a04",
+    "width": 2353,
+    "height": 1881
+  },
+  {
+    "path": "images/ref26/01_p055_bv.png",
+    "bytes": 577511,
+    "sha256": "ee39445519f64f424a43af9cb4b44beaa14b02e88236b6219e5dce0f5944912d",
+    "width": 2598,
+    "height": 1852
+  },
+  {
+    "path": "images/ref26/01_p055_upper_transport.png",
+    "bytes": 346986,
+    "sha256": "68537bd42f5f5cc8dbf963aecf2eda36a86b3f98778bc793b45ae302b38bac55",
+    "width": 2246,
+    "height": 1940
+  },
+  {
+    "path": "images/ref26/01_p056_escrow.png",
+    "bytes": 418984,
+    "sha256": "f3c82d0753fa33e2aa19418e674724aa597da3e4cf7285fd5ace5157d053a959",
+    "width": 2127,
+    "height": 1939
+  },
+  {
+    "path": "images/ref26/01_p056_reject.png",
+    "bytes": 343313,
+    "sha256": "8b0a3a465415b8da966f60cba7bde1b3ddf4601eea5c25421222e297b835f906",
+    "width": 2125,
+    "height": 1946
+  },
+  {
+    "path": "images/ref26/01_p057_intermediate.png",
+    "bytes": 250035,
+    "sha256": "917c02ca2e9a856de10c64f6bab4a1a8c168312feff7574428c782aa2a88825d",
+    "width": 2619,
+    "height": 1880
+  },
+  {
+    "path": "images/ref26/01_p058_cassette_transport.png",
+    "bytes": 285236,
+    "sha256": "41a0b5b390d68456c4faec75eac0f33d2289500d469a83b6127519e235b2df5c",
+    "width": 2404,
+    "height": 1612
+  },
+  {
+    "path": "images/ref26/05_p139_SBR01AA.png",
+    "bytes": 271828,
+    "sha256": "ca125e6e5958363c908f77dfacfe700baa4e8ca787ad045dbb60eac8cd226aae",
+    "width": 3188,
+    "height": 3826
+  },
+  {
+    "path": "images/ref26/05_p140_SBR02AA.png",
+    "bytes": 277911,
+    "sha256": "1d6ace10ce1218055af4f22e2c585e1a72a747f15f2ac70d2b365fe2278ff6a7",
+    "width": 3378,
+    "height": 3576
+  },
+  {
+    "path": "images/ref26/05_p141_SBR03AA.png",
+    "bytes": 201229,
+    "sha256": "cda2aaa9c7cf2df704af6bb940f7441cef4bc2acbd11dc3bce0ebfd5ed19f0e4",
+    "width": 2364,
+    "height": 3570
+  },
+  {
+    "path": "images/ref26/05_p142_SBR04AA.png",
+    "bytes": 322346,
+    "sha256": "e2e8bdc2483e97435739b7feef40053e6901f4c0b4882137885a5035a53b8f21",
+    "width": 3750,
+    "height": 4207
+  },
+  {
+    "path": "images/ref26/05_p143_SBR05AA.png",
+    "bytes": 263687,
+    "sha256": "de9f7591f2b6e8aedbbed3ba037ac76262b66f1c06475af1a239caa7a5ecd624",
+    "width": 2964,
+    "height": 3438
+  },
+  {
+    "path": "images/ref26/05_p143_SBR06AA.png",
+    "bytes": 52462,
+    "sha256": "2402f882316ff733acd12abc3c994898622317e8aed4251e527947120350cadc",
+    "width": 1616,
+    "height": 1476
+  },
+  {
+    "path": "images/ref26/05_p144_SBR06AA_connectors.png",
+    "bytes": 56002,
+    "sha256": "c641914532556aba1eec4a704e658e0a45ac119d795ecd19362cb62301acd181",
+    "width": 2484,
+    "height": 491
+  },
+  {
+    "path": "images/ref26/05_p144_SBR07AA.png",
+    "bytes": 317459,
+    "sha256": "c54d17e19f0f3bc5cefeb7f519a2711bbc994fe08bc9f1647379f04ae6233223",
+    "width": 3205,
+    "height": 4168
+  },
+  {
+    "path": "images/ref26/05_p145_SBR08AA.png",
+    "bytes": 139676,
+    "sha256": "b90f91d5fb52ae3ffb02b81b2f30bdc45d4d31cd2197d30cb2c1c97f09ffb304",
+    "width": 2343,
+    "height": 1876
+  },
+  {
+    "path": "images/ref26/05_p145_SBR09AA.png",
+    "bytes": 127071,
+    "sha256": "5b3fd9db763a7e6d04a333ab460a89075ff33131b065e99fdbef22b5a552a7eb",
+    "width": 2149,
+    "height": 1589
+  },
+  {
+    "path": "images/ref26/05_p146_shutter_pcb.png",
+    "bytes": 93342,
+    "sha256": "f0cfd9650c40efb10c14dfb9f799279823f59619df139f61c5831c07f9457aa7",
+    "width": 1865,
+    "height": 2424
+  },
+  {
+    "path": "images/ref26/access26-02_p003.png",
+    "bytes": 1082293,
+    "sha256": "fd7b40aa9c370b6247fc3bda218088fcb55b70413f48946580c5cd0197d5af96",
+    "width": 1740,
+    "height": 2550
+  },
+  {
+    "path": "images/ref26/access26-02_p004.png",
+    "bytes": 989632,
+    "sha256": "abcbcbc000ed2168d4e8b5f73df9a8ae8edbaca5eb103211371ec49f29213422",
+    "width": 1769,
+    "height": 1830
+  },
+  {
+    "path": "images/ref26/access26-02_p009.png",
+    "bytes": 722481,
+    "sha256": "1eb3ab5cdff67dc9df034a55d099f3a87ba2b3df5b2d57bbdab366c0abf5297f",
+    "width": 1772,
+    "height": 2512
+  },
+  {
+    "path": "images/ref26/access26-02_p010.png",
+    "bytes": 747545,
+    "sha256": "bd716714e3319d8eff9a7f230e6313a6cddc3d86c35cf93ccd97562a079a250d",
+    "width": 1772,
+    "height": 2503
+  },
+  {
+    "path": "images/ref26/access26-02_p011.png",
+    "bytes": 544852,
+    "sha256": "33d037f948e17c6c5df6eef68c2596d0f4965c7b418b2b35c17a39b0949b3299",
+    "width": 1602,
+    "height": 1710
+  },
+  {
+    "path": "images/ref26/access26-02_p012.png",
+    "bytes": 791509,
+    "sha256": "e01d647feb5fcb693e45bbfaee98985649c8e215cb3511a8f2a75ada15575117",
+    "width": 1702,
+    "height": 2395
+  },
+  {
+    "path": "images/ref26/access26-02_p013.png",
+    "bytes": 706458,
+    "sha256": "8c8b24a2e6414784e58b76bcdceadb18baac4709b8e26c564ad83b69f26a9387",
+    "width": 1815,
+    "height": 2107
+  },
+  {
+    "path": "images/ref26/access26-02_p014.png",
+    "bytes": 1130656,
+    "sha256": "6a3798b8786c808caf5c2e55bcae0a273946e2041c2a517476e2a37d093c2957",
+    "width": 1793,
+    "height": 1930
+  },
+  {
+    "path": "images/ref26/access26-02_p015.png",
+    "bytes": 1070481,
+    "sha256": "0deb102041f6af3927ac569e3376ad054b46466ce574bf32dd3f2ba28f1842a5",
+    "width": 1816,
+    "height": 2412
+  },
+  {
+    "path": "images/ref26/access26-02_p018.png",
+    "bytes": 468239,
+    "sha256": "0dfd5671e60a9108f03a25a3b4e4bea2b3e4d88b799e28f353dd991bc99577be",
+    "width": 1726,
+    "height": 1133
+  },
+  {
+    "path": "images/ref26/access26-02_p019.png",
+    "bytes": 1135480,
+    "sha256": "0c80505d8e6b2c7a970c6f817f7422d2fdbc2928f265ef7098113dcf79d6005d",
+    "width": 1776,
+    "height": 2412
+  },
+  {
+    "path": "images/ref26/access26-02_p020.png",
+    "bytes": 952872,
+    "sha256": "b408651e71e28c6d45eaefc0da1dfc0c2f12c4adfb3cfb5a3ec5959f0e9a3be5",
+    "width": 1819,
+    "height": 1818
+  },
+  {
+    "path": "images/ref26/access26-02_p021.png",
+    "bytes": 1001837,
+    "sha256": "a4cf7ad17452601f362f23de6d9360b717d020b44653b1b6df1ea6ea158304dd",
+    "width": 1755,
+    "height": 2368
+  },
+  {
+    "path": "images/ref26/access26-02_p022.png",
+    "bytes": 901241,
+    "sha256": "a285b873d0b0b0d61613c467acbebc4fc592b89ddd151d2ebf6ae19ab110bd94",
+    "width": 1775,
+    "height": 1706
+  },
+  {
+    "path": "images/ref26/access26-02_p023.png",
+    "bytes": 844152,
+    "sha256": "0938df23e610c22eca256478ae11b11775c27e43fe9ecb8b63f114904552d2a8",
+    "width": 1764,
+    "height": 1923
+  },
+  {
+    "path": "images/ref26/access26-02_p024.png",
+    "bytes": 747403,
+    "sha256": "cc774b19c2fe8e440b5ddb10460d525ba0442a7085eea86dc1ff54dd509540cc",
+    "width": 1667,
+    "height": 2247
+  },
+  {
+    "path": "images/ref26/access26-02_p025.png",
+    "bytes": 1119724,
+    "sha256": "88e69069a96d68b4e6ec8fe22c7f6f55005d6e5fbe400be0323780037f521f05",
+    "width": 1764,
+    "height": 2332
+  },
+  {
+    "path": "images/ref26/access26-02_p026.png",
+    "bytes": 993088,
+    "sha256": "6be47ebbb3901246b9c4fcd59cf083222bea35bcdd747741c21926fb3a33042a",
+    "width": 1755,
+    "height": 2232
+  },
+  {
+    "path": "images/ref26/access26-02_p027.png",
+    "bytes": 776317,
+    "sha256": "3a6a8a21b33f84635fdf09094861ce37be32fd41607c420820c14199ed5b3655",
+    "width": 1775,
+    "height": 1856
+  },
+  {
+    "path": "images/ref26/access26-02_p028.png",
+    "bytes": 755907,
+    "sha256": "43cf91a416f2f0284988e13907eb3d5dfed321093bd7f8ca26b72409d2f5e6ba",
+    "width": 1797,
+    "height": 1707
+  },
+  {
+    "path": "images/ref26/access26-02_p029.png",
+    "bytes": 882819,
+    "sha256": "90b4730f2452f62720fbf6f87dd568df8997eb9ec60f571ef23e2276d4a447d6",
+    "width": 1772,
+    "height": 1756
+  },
+  {
+    "path": "images/ref26/access26-02_p031.png",
+    "bytes": 912410,
+    "sha256": "acd8fe28af356f63fb677238a576b7aa960d89bfdb81f3309394e1ec12611bad",
+    "width": 1780,
+    "height": 1706
+  },
+  {
+    "path": "images/ref26/access26-02_p034.png",
+    "bytes": 826267,
+    "sha256": "abe17b78ba2c6d4bff434b28c142dd391884de51e289ef60c7c8104362f6b570",
+    "width": 1456,
+    "height": 2447
+  },
+  {
+    "path": "images/ref26/access26-02_p035.png",
+    "bytes": 834718,
+    "sha256": "eb274a699e9de3d11f0bb7271aa26eba49379c00fe34089651b93766d3bdafd8",
+    "width": 1456,
+    "height": 2282
+  },
+  {
+    "path": "images/ref26/access26-03_p004.png",
+    "bytes": 936221,
+    "sha256": "513f9757064320f0b44590e472622f1ae06f76dfc2434fde13f8005060c266cb",
+    "width": 1824,
+    "height": 2112
+  },
+  {
+    "path": "images/ref26/access26-03_p005.png",
+    "bytes": 982690,
+    "sha256": "4684ba5ca324a617609e17935538ddaa313f96b587b05de6adfb39c941a8e515",
+    "width": 1764,
+    "height": 1748
+  },
+  {
+    "path": "images/ref26/access26-03_p006.png",
+    "bytes": 1171156,
+    "sha256": "af978ba88d951956b6dfea4e3edfb41ae626a62a498f69be142c0767ac18b830",
+    "width": 1753,
+    "height": 2420
+  },
+  {
+    "path": "images/ref26/access26-03_p007.png",
+    "bytes": 1056781,
+    "sha256": "5bd51bcb4727711b90930eb0cb629bbcb2a12772254e5cac928ef1e84ce7c670",
+    "width": 1824,
+    "height": 2289
+  },
+  {
+    "path": "images/ref26/access26-03_p015.png",
+    "bytes": 770608,
+    "sha256": "2b0dd1af4a554740cd99f3569e81c87b8fdc632f1282a8f8be84a22ba1c1f58c",
+    "width": 1803,
+    "height": 2353
+  },
+  {
+    "path": "images/ref26/access26-03_p019.png",
+    "bytes": 257209,
+    "sha256": "a7e1acf85c39b1a115c0b2f7d9a4d8c85e8eb7bb97fa0a51c7a71195532160c0",
+    "width": 1749,
+    "height": 2369
+  },
+  {
+    "path": "images/ref26/access26-03_p026.png",
+    "bytes": 404398,
+    "sha256": "a7773eaa1ba2c891efacae623412040c5992409d9eb468753bd72bf0d88cba69",
+    "width": 1820,
+    "height": 2336
+  },
+  {
+    "path": "images/ref26/access26-03_p025.png",
+    "bytes": 571928,
+    "sha256": "78f270ec8fbb4b0a54509dfd1cc0a65581c96ece7106d6386a4aec190ac474e5",
+    "width": 1822,
+    "height": 2621
+  },
+  {
+    "path": "images/ref26/access26-03_p027.png",
+    "bytes": 375522,
+    "sha256": "6c4167c878d2fe0369af6ed9c5a2113b967ee766c6bcbf83527e6c15c5fd7886",
+    "width": 1739,
+    "height": 1924
+  },
+  {
+    "path": "images/ref26/03_p006_feed_cables.png",
+    "bytes": 1204903,
+    "sha256": "9838aa34706350de675ebf0a191f40c797f3e0e54fa4d1f483e9f5e67ef8996d",
+    "width": 3456,
+    "height": 1531
+  },
+  {
+    "path": "images/ref26/03_p019_escrow_docking.png",
+    "bytes": 213706,
+    "sha256": "9ad434440eb76069316a061e58b6a6c65b619c042274e484fdf2e4044ccf64a3",
+    "width": 3177,
+    "height": 1810
+  }
+]

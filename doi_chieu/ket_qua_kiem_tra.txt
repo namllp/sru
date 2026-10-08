@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "checks": [
+    "Project schema and references",
+    "Real encrypted MData/MStatus loaded",
+    "Module 04 BV and 05 Escrow decoded",
+    "Byte23 Reset description and 4D41 preserved",
+    "PPAC scope excludes unrelated cassette sensor",
+    "Access photos reachable in image strip",
+    "Access panel escaping / selection / visibility",
+    "Hidden regions excluded",
+    "Editor export template matches Diagnostic"
+  ],
+  "sampleError": "4120"
+}
+
+PASS: Editor schema, 10 shared boards, Main PCB sharing and new Escrow photo availability

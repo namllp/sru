@@ -1,0 +1,1399 @@
+[
+  {
+    "id": "ncr2022-pocket-1-r10",
+    "photoId": "ncr2022-pocket-1",
+    "type": "circle",
+    "x": 35.43895766178184,
+    "y": 43.81319210399615,
+    "r": 3.2,
+    "componentIds": [
+      "feed::PPAC",
+      "feed::PPWC",
+      "feed::PPDC",
+      "feed::PPCC"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo đường chỉ dẫn trong hình gốc; callout chung giữ nguyên nhóm.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-pocket-1-r11",
+    "photoId": "ncr2022-pocket-1",
+    "type": "circle",
+    "x": 43.15897824850341,
+    "y": 27.27596240396894,
+    "r": 3.2,
+    "componentIds": [
+      "feed::PTHC"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-pocket-1-r12",
+    "photoId": "ncr2022-pocket-1",
+    "type": "circle",
+    "x": 30.969472058943037,
+    "y": 39.835883695128835,
+    "r": 3.2,
+    "componentIds": [
+      "feed::PRHC",
+      "feed::PRDC"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo đường chỉ dẫn trong hình gốc; callout chung giữ nguyên nhóm.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-pocket-1-r13",
+    "photoId": "ncr2022-pocket-1",
+    "type": "circle",
+    "x": 40.04388222228242,
+    "y": 53.4424650938854,
+    "r": 3.2,
+    "componentIds": [
+      "feed::PFFC",
+      "feed::PLDC"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo đường chỉ dẫn trong hình gốc; callout chung giữ nguyên nhóm.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-pocket-1-r14",
+    "photoId": "ncr2022-pocket-1",
+    "type": "circle",
+    "x": 33.67825121217867,
+    "y": 62.862406062255324,
+    "r": 3.2,
+    "componentIds": [
+      "feed::PLFC",
+      "feed::PLHC"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo đường chỉ dẫn trong hình gốc; callout chung giữ nguyên nhóm.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-pocket-1-r15",
+    "photoId": "ncr2022-pocket-1",
+    "type": "circle",
+    "x": 31.51122788959016,
+    "y": 66.6303824496033,
+    "r": 3.2,
+    "componentIds": [
+      "feed::PFPC"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-pocket-1-r16",
+    "photoId": "ncr2022-pocket-1",
+    "type": "circle",
+    "x": 43.02353929084162,
+    "y": 67.04904649264198,
+    "r": 3.2,
+    "componentIds": [
+      "feed::PSFC",
+      "feed::PSAC"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo đường chỉ dẫn trong hình gốc; callout chung giữ nguyên nhóm.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-pocket-1-r17",
+    "photoId": "ncr2022-pocket-1",
+    "type": "circle",
+    "x": 65.77728417802096,
+    "y": 60.97841786858137,
+    "r": 3.2,
+    "componentIds": [
+      "feed::PERC",
+      "feed::PELC"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo đường chỉ dẫn trong hình gốc; callout chung giữ nguyên nhóm.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-pocket-1-r18",
+    "photoId": "ncr2022-pocket-1",
+    "type": "circle",
+    "x": 60.90148170219681,
+    "y": 63.28107010529399,
+    "r": 3.2,
+    "componentIds": [
+      "feed::PPPC"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-pocket-2-r19",
+    "photoId": "ncr2022-pocket-2",
+    "type": "circle",
+    "x": 51.96251049651922,
+    "y": 32.706872370266474,
+    "r": 3.2,
+    "componentIds": [
+      "feed::PLAS"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-pocket-2-r20",
+    "photoId": "ncr2022-pocket-2",
+    "type": "circle",
+    "x": 64.15201668607958,
+    "y": 29.200561009817676,
+    "r": 3.2,
+    "componentIds": [
+      "feed::PLAS"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-pocket-2-r21",
+    "photoId": "ncr2022-pocket-2",
+    "type": "circle",
+    "x": 38.824931603326384,
+    "y": 42.29079008882656,
+    "r": 3.2,
+    "componentIds": [
+      "feed::PTIS"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-pocket-2-r22",
+    "photoId": "ncr2022-pocket-2",
+    "type": "circle",
+    "x": 49.52460925860714,
+    "y": 39.48574100046751,
+    "r": 3.2,
+    "componentIds": [
+      "feed::PTIS"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-pocket-2-r23",
+    "photoId": "ncr2022-pocket-2",
+    "type": "circle",
+    "x": 41.94002762954737,
+    "y": 49.303412809724165,
+    "r": 3.2,
+    "componentIds": [
+      "feed::PTOS"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-pocket-2-r24",
+    "photoId": "ncr2022-pocket-2",
+    "type": "circle",
+    "x": 52.50426632716635,
+    "y": 45.563347358578774,
+    "r": 3.2,
+    "componentIds": [
+      "feed::PTOS"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-pocket-2-r25",
+    "photoId": "ncr2022-pocket-2",
+    "type": "circle",
+    "x": 49.66004821626892,
+    "y": 52.80972417017298,
+    "r": 3.2,
+    "componentIds": [
+      "feed::PNTS"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-pocket-2-r26",
+    "photoId": "ncr2022-pocket-2",
+    "type": "circle",
+    "x": 53.046022157813475,
+    "y": 51.407199625993464,
+    "r": 3.2,
+    "componentIds": [
+      "feed::PNTS"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-pocket-2-r27",
+    "photoId": "ncr2022-pocket-2",
+    "type": "circle",
+    "x": 67.53799062762414,
+    "y": 58.18606825619448,
+    "r": 3.2,
+    "componentIds": [
+      "feed::PCHS"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-pocket-2-r28",
+    "photoId": "ncr2022-pocket-2",
+    "type": "circle",
+    "x": 75.12257225668391,
+    "y": 54.212248714352505,
+    "r": 3.2,
+    "componentIds": [
+      "feed::PCHS"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-front-sensors-r29",
+    "photoId": "ncr2022-front-sensors",
+    "type": "circle",
+    "x": 33.49998287847139,
+    "y": 50.2816180235535,
+    "r": 3.2,
+    "componentIds": [
+      "front_transport::UTLS"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-front-sensors-r30",
+    "photoId": "ncr2022-front-sensors",
+    "type": "circle",
+    "x": 47.71085162483306,
+    "y": 67.64620761815715,
+    "r": 3.2,
+    "componentIds": [
+      "front_transport::UTLS"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-bv-sensors-r31",
+    "photoId": "ncr2022-bv-sensors",
+    "type": "circle",
+    "x": 34.969911166300506,
+    "y": 47.034339229968786,
+    "r": 3.2,
+    "componentIds": [
+      "bill_validation::UT1S"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-bv-sensors-r32",
+    "photoId": "ncr2022-bv-sensors",
+    "type": "circle",
+    "x": 39.905116693730704,
+    "y": 66.26249830339772,
+    "r": 3.2,
+    "componentIds": [
+      "bill_validation::UT1S"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-upper-sensors-r33",
+    "photoId": "ncr2022-upper-sensors",
+    "type": "circle",
+    "x": 61.67500331990615,
+    "y": 31.172726291940876,
+    "r": 3.2,
+    "componentIds": [
+      "upper_transport::UT4S"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-upper-sensors-r34",
+    "photoId": "ncr2022-upper-sensors",
+    "type": "circle",
+    "x": 51.272630693639066,
+    "y": 36.56705146186213,
+    "r": 3.2,
+    "componentIds": [
+      "upper_transport::UT4S"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-upper-sensors-r35",
+    "photoId": "ncr2022-upper-sensors",
+    "type": "circle",
+    "x": 56.805807622504545,
+    "y": 49.51343186967309,
+    "r": 3.2,
+    "componentIds": [
+      "upper_transport::UT3S"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-upper-sensors-r36",
+    "photoId": "ncr2022-upper-sensors",
+    "type": "circle",
+    "x": 46.40343499623744,
+    "y": 56.41816808717228,
+    "r": 3.2,
+    "componentIds": [
+      "upper_transport::UT3S"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-upper-sensors-r37",
+    "photoId": "ncr2022-upper-sensors",
+    "type": "circle",
+    "x": 56.584480545349926,
+    "y": 73.4642356241234,
+    "r": 3.2,
+    "componentIds": [
+      "upper_transport::UT2S"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-upper-sensors-r38",
+    "photoId": "ncr2022-upper-sensors",
+    "type": "circle",
+    "x": 46.84608915054668,
+    "y": 82.52670190959111,
+    "r": 3.2,
+    "componentIds": [
+      "upper_transport::UT2S"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-upper-sensors-r39",
+    "photoId": "ncr2022-upper-sensors",
+    "type": "circle",
+    "x": 24.934708512239386,
+    "y": 49.081885856079424,
+    "r": 3.2,
+    "componentIds": [
+      "upper_transport::CRDC"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-upper-sensors-r40",
+    "photoId": "ncr2022-upper-sensors",
+    "type": "circle",
+    "x": 65.65889070868933,
+    "y": 54.476211026000634,
+    "r": 3.2,
+    "componentIds": [
+      "upper_transport::CLDC"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "expanded-104",
+    "photoId": "ncr2022-escrow-sensors",
+    "type": "circle",
+    "x": 43.1380174574367,
+    "y": 36.232603301326996,
+    "r": 3.6799999999999997,
+    "componentIds": [
+      "escrow::UTES"
+    ],
+    "moduleIds": [],
+    "note": "Đầu đường chỉ dẫn sensor trong bản đồ Escrow, NCR trang 607.",
+    "originalSensorBounds": {
+      "r": 2.3
+    }
+  },
+  {
+    "id": "expanded-105",
+    "photoId": "ncr2022-escrow-sensors",
+    "type": "circle",
+    "x": 47.45916515426497,
+    "y": 42.274247491638796,
+    "r": 3.6799999999999997,
+    "componentIds": [
+      "escrow::ETCS"
+    ],
+    "moduleIds": [],
+    "note": "Đầu đường chỉ dẫn sensor trong bản đồ Escrow, NCR trang 607.",
+    "originalSensorBounds": {
+      "r": 2.3
+    }
+  },
+  {
+    "id": "expanded-106",
+    "photoId": "ncr2022-escrow-sensors",
+    "type": "circle",
+    "x": 37.30446806671852,
+    "y": 45.079296579997845,
+    "r": 3.6799999999999997,
+    "componentIds": [
+      "escrow::ENRS"
+    ],
+    "moduleIds": [],
+    "note": "Đầu đường chỉ dẫn sensor trong bản đồ Escrow, NCR trang 607.",
+    "originalSensorBounds": {
+      "r": 2.3
+    }
+  },
+  {
+    "id": "expanded-107",
+    "photoId": "ncr2022-escrow-sensors",
+    "type": "circle",
+    "x": 45.51464869069225,
+    "y": 47.66857266156004,
+    "r": 3.6799999999999997,
+    "componentIds": [
+      "escrow::EC1C"
+    ],
+    "moduleIds": [],
+    "note": "Đầu đường chỉ dẫn sensor trong bản đồ Escrow, NCR trang 607.",
+    "originalSensorBounds": {
+      "r": 2.3
+    }
+  },
+  {
+    "id": "expanded-108",
+    "photoId": "ncr2022-escrow-sensors",
+    "type": "circle",
+    "x": 35.14389421830438,
+    "y": 52.415578811090725,
+    "r": 3.6799999999999997,
+    "componentIds": [
+      "escrow::ETEC"
+    ],
+    "moduleIds": [],
+    "note": "Đầu đường chỉ dẫn sensor trong bản đồ Escrow, NCR trang 607.",
+    "originalSensorBounds": {
+      "r": 2.3
+    }
+  },
+  {
+    "id": "expanded-109",
+    "photoId": "ncr2022-escrow-sensors",
+    "type": "circle",
+    "x": 22.180451127819545,
+    "y": 72.48246844319776,
+    "r": 3.6799999999999997,
+    "componentIds": [
+      "escrow::ETFC"
+    ],
+    "moduleIds": [],
+    "note": "Đầu đường chỉ dẫn sensor trong bản đồ Escrow, NCR trang 607.",
+    "originalSensorBounds": {
+      "r": 2.3
+    }
+  },
+  {
+    "id": "expanded-110",
+    "photoId": "ncr2022-escrow-sensors",
+    "type": "circle",
+    "x": 34.063607294097324,
+    "y": 75.7190635451505,
+    "r": 3.6799999999999997,
+    "componentIds": [
+      "escrow::ER1C"
+    ],
+    "moduleIds": [],
+    "note": "Đầu đường chỉ dẫn sensor trong bản đồ Escrow, NCR trang 607.",
+    "originalSensorBounds": {
+      "r": 2.3
+    }
+  },
+  {
+    "id": "expanded-111",
+    "photoId": "ncr2022-escrow-sensors",
+    "type": "circle",
+    "x": 37.520525451559934,
+    "y": 78.52411263350955,
+    "r": 3.6799999999999997,
+    "componentIds": [
+      "escrow::ER3C"
+    ],
+    "moduleIds": [],
+    "note": "Đầu đường chỉ dẫn sensor trong bản đồ Escrow, NCR trang 607.",
+    "originalSensorBounds": {
+      "r": 2.3
+    }
+  },
+  {
+    "id": "expanded-112",
+    "photoId": "ncr2022-escrow-sensors",
+    "type": "circle",
+    "x": 44.002246996802356,
+    "y": 72.6982414499946,
+    "r": 3.6799999999999997,
+    "componentIds": [
+      "escrow::ER2C"
+    ],
+    "moduleIds": [],
+    "note": "Đầu đường chỉ dẫn sensor trong bản đồ Escrow, NCR trang 607.",
+    "originalSensorBounds": {
+      "r": 2.3
+    }
+  },
+  {
+    "id": "expanded-113",
+    "photoId": "ncr2022-escrow-sensors",
+    "type": "circle",
+    "x": 47.891279923947806,
+    "y": 75.7190635451505,
+    "r": 3.6799999999999997,
+    "componentIds": [
+      "escrow::ER4C"
+    ],
+    "moduleIds": [],
+    "note": "Đầu đường chỉ dẫn sensor trong bản đồ Escrow, NCR trang 607.",
+    "originalSensorBounds": {
+      "r": 2.3
+    }
+  },
+  {
+    "id": "expanded-114",
+    "photoId": "ncr2022-escrow-sensors",
+    "type": "circle",
+    "x": 55.88540316308011,
+    "y": 40.548063437264,
+    "r": 3.6799999999999997,
+    "componentIds": [
+      "escrow::EC2C"
+    ],
+    "moduleIds": [],
+    "note": "Đầu đường chỉ dẫn sensor trong bản đồ Escrow, NCR trang 607.",
+    "originalSensorBounds": {
+      "r": 2.3
+    }
+  },
+  {
+    "id": "expanded-115",
+    "photoId": "ncr2022-escrow-sensors",
+    "type": "circle",
+    "x": 60.638665629591216,
+    "y": 32.13291617218686,
+    "r": 3.6799999999999997,
+    "componentIds": [
+      "escrow::ENLS"
+    ],
+    "moduleIds": [],
+    "note": "Đầu đường chỉ dẫn sensor trong bản đồ Escrow, NCR trang 607.",
+    "originalSensorBounds": {
+      "r": 2.3
+    }
+  },
+  {
+    "id": "ncr2022-reject-sensors-r41",
+    "photoId": "ncr2022-reject-sensors",
+    "type": "circle",
+    "x": 35.04695020910597,
+    "y": 30.259467040673215,
+    "r": 3.2,
+    "componentIds": [
+      "reject_transport::RTAS"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-reject-sensors-r42",
+    "photoId": "ncr2022-reject-sensors",
+    "type": "circle",
+    "x": 47.47494673715773,
+    "y": 27.84887798036465,
+    "r": 3.2,
+    "componentIds": [
+      "reject_transport::RTAS"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-reject-sensors-r43",
+    "photoId": "ncr2022-reject-sensors",
+    "type": "circle",
+    "x": 34.455140850627316,
+    "y": 47.791023842917255,
+    "r": 3.2,
+    "componentIds": [
+      "reject_transport::RTBS"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-reject-sensors-r44",
+    "photoId": "ncr2022-reject-sensors",
+    "type": "circle",
+    "x": 48.26402588179594,
+    "y": 44.28471248246845,
+    "r": 3.2,
+    "componentIds": [
+      "reject_transport::RTBS"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-reject-sensors-r45",
+    "photoId": "ncr2022-reject-sensors",
+    "type": "circle",
+    "x": 33.86333149214866,
+    "y": 66.41830294530153,
+    "r": 3.2,
+    "componentIds": [
+      "reject_transport::RTCS"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-reject-sensors-r46",
+    "photoId": "ncr2022-reject-sensors",
+    "type": "circle",
+    "x": 47.27767695099819,
+    "y": 62.47370266479665,
+    "r": 3.2,
+    "componentIds": [
+      "reject_transport::RTCS"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-reject-sensors-r47",
+    "photoId": "ncr2022-reject-sensors",
+    "type": "circle",
+    "x": 62.07291091296457,
+    "y": 27.19144460028052,
+    "r": 3.2,
+    "componentIds": [
+      "reject_transport::RJLC"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-reject-sensors-r48",
+    "photoId": "ncr2022-reject-sensors",
+    "type": "circle",
+    "x": 62.467450485283685,
+    "y": 33.76577840112202,
+    "r": 3.2,
+    "componentIds": [
+      "reject_transport::RAFC"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-reject-sensors-r49",
+    "photoId": "ncr2022-reject-sensors",
+    "type": "circle",
+    "x": 61.283831768326365,
+    "y": 40.55925666199158,
+    "r": 3.2,
+    "componentIds": [
+      "reject_transport::RBFC"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-reject-sensors-r50",
+    "photoId": "ncr2022-reject-sensors",
+    "type": "circle",
+    "x": 60.100213051369046,
+    "y": 58.09081346423562,
+    "r": 3.2,
+    "componentIds": [
+      "reject_transport::RCFC"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-intermediate-sensors-r51",
+    "photoId": "ncr2022-intermediate-sensors",
+    "type": "circle",
+    "x": 40.54191740694749,
+    "y": 59.1998931409871,
+    "r": 3.2,
+    "componentIds": [
+      "intermediate_transport::JTCS"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-intermediate-sensors-r52",
+    "photoId": "ncr2022-intermediate-sensors",
+    "type": "circle",
+    "x": 65.21794504409844,
+    "y": 50.07235245664419,
+    "r": 3.2,
+    "componentIds": [
+      "intermediate_transport::JTCS"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-deposit-transport-sensors-r53",
+    "photoId": "ncr2022-deposit-transport-sensors",
+    "type": "circle",
+    "x": 34.01362873677362,
+    "y": 54.781569788582416,
+    "r": 3.2,
+    "componentIds": [
+      "cassette_transport::LT1S",
+      "lower_transport_1::LT1S",
+      "lower_transport_2::LT2S",
+      "lower_transport_3::LT3S",
+      "lower_transport_4::LT4S",
+      "lower_transport_5::LT5S"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc. Mẫu transport Deposit / Recycler dùng chung cho vị trí cassette 1–5 theo cấu hình người dùng.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-deposit-transport-sensors-r54",
+    "photoId": "ncr2022-deposit-transport-sensors",
+    "type": "circle",
+    "x": 51.477587919049405,
+    "y": 69.58599553269961,
+    "r": 3.2,
+    "componentIds": [
+      "cassette_transport::LT1S",
+      "lower_transport_1::LT1S",
+      "lower_transport_2::LT2S",
+      "lower_transport_3::LT3S",
+      "lower_transport_4::LT4S",
+      "lower_transport_5::LT5S"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc. Mẫu transport Deposit / Recycler dùng chung cho vị trí cassette 1–5 theo cấu hình người dùng.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "ncr2022-deposit-transport-sensors-r55",
+    "photoId": "ncr2022-deposit-transport-sensors",
+    "type": "circle",
+    "x": 71.16734582063488,
+    "y": 68.80681523037764,
+    "r": 3.2,
+    "componentIds": [
+      "cassette_transport::ER4C"
+    ],
+    "moduleIds": [],
+    "note": "Vị trí theo hình gốc.",
+    "originalSensorBounds": {
+      "r": 2.0
+    }
+  },
+  {
+    "id": "cassette-map-120",
+    "photoId": "cassette-deposit-user-map",
+    "type": "rect",
+    "x": 23.56060606060606,
+    "y": 31.208997188378635,
+    "w": 4.7272727272727275,
+    "h": 7.497656982193066,
+    "componentIds": [
+      "cassette_1::CP1C"
+    ],
+    "moduleIds": [],
+    "note": "Callout 2: Lid Open. Dùng chung hình học cho các tag của cassette cùng loại.",
+    "originalSensorBounds": {
+      "w": 2.9545454545454546,
+      "h": 4.686035613870666
+    }
+  },
+  {
+    "id": "cassette-map-121",
+    "photoId": "cassette-deposit-user-map",
+    "type": "rect",
+    "x": 24.242424242424242,
+    "y": 44.798500468603564,
+    "w": 11.393939393939394,
+    "h": 14.84536082474227,
+    "componentIds": [
+      "cassette_1::CL1S",
+      "cassette_1::CR1S"
+    ],
+    "moduleIds": [],
+    "note": "Callout 3: Cassette Entry. Dùng chung hình học cho các tag của cassette cùng loại.",
+    "originalSensorBounds": {
+      "w": 7.121212121212121,
+      "h": 9.278350515463918
+    }
+  },
+  {
+    "id": "cassette-map-122",
+    "photoId": "cassette-deposit-user-map",
+    "type": "rect",
+    "x": 29.924242424242426,
+    "y": 39.36269915651359,
+    "w": 5.818181818181818,
+    "h": 5.248359887535146,
+    "componentIds": [
+      "cassette_1::T1S"
+    ],
+    "moduleIds": [],
+    "note": "Callout 4: Transport. Dùng chung hình học cho các tag của cassette cùng loại.",
+    "originalSensorBounds": {
+      "w": 3.6363636363636362,
+      "h": 3.280224929709466
+    }
+  },
+  {
+    "id": "cassette-map-123",
+    "photoId": "cassette-deposit-user-map",
+    "type": "rect",
+    "x": 32.27272727272727,
+    "y": 42.9240862230553,
+    "w": 5.93939393939394,
+    "h": 5.248359887535146,
+    "componentIds": [
+      "cassette_1::T1S"
+    ],
+    "moduleIds": [],
+    "note": "Callout 4: Transport. Dùng chung hình học cho các tag của cassette cùng loại.",
+    "originalSensorBounds": {
+      "w": 3.7121212121212124,
+      "h": 3.280224929709466
+    }
+  },
+  {
+    "id": "cassette-map-124",
+    "photoId": "cassette-deposit-user-map",
+    "type": "rect",
+    "x": 33.18181818181819,
+    "y": 38.98781630740394,
+    "w": 4.606060606060606,
+    "h": 7.047797563261482,
+    "componentIds": [
+      "cassette_1::NE1C"
+    ],
+    "moduleIds": [],
+    "note": "Callout 5: Nearly Empty. Dùng chung hình học cho các tag của cassette cùng loại.",
+    "originalSensorBounds": {
+      "w": 2.878787878787879,
+      "h": 4.404873477038426
+    }
+  },
+  {
+    "id": "cassette-map-125",
+    "photoId": "cassette-deposit-user-map",
+    "type": "rect",
+    "x": 68.86363636363636,
+    "y": 34.11433926897844,
+    "w": 4.7272727272727275,
+    "h": 5.998125585754451,
+    "componentIds": [
+      "cassette_1::NF1C"
+    ],
+    "moduleIds": [],
+    "note": "Callout 6: Cassette Nearly Full. Dùng chung hình học cho các tag của cassette cùng loại.",
+    "originalSensorBounds": {
+      "w": 2.9545454545454546,
+      "h": 3.748828491096532
+    }
+  },
+  {
+    "id": "cassette-map-126",
+    "photoId": "cassette-deposit-user-map",
+    "type": "rect",
+    "x": 63.030303030303024,
+    "y": 30.55295220243674,
+    "w": 4.484848484848485,
+    "h": 6.298031865042175,
+    "componentIds": [
+      "cassette_1::CF1C"
+    ],
+    "moduleIds": [],
+    "note": "Callout 7: Cassette Full. Dùng chung hình học cho các tag của cassette cùng loại.",
+    "originalSensorBounds": {
+      "w": 2.803030303030303,
+      "h": 3.936269915651359
+    }
+  },
+  {
+    "id": "cassette-map-141",
+    "photoId": "cassette-deposit-user-map",
+    "type": "rect",
+    "x": 19.848484848484848,
+    "y": 26.61668228678538,
+    "w": 2.727272727272727,
+    "h": 4.686035613870666,
+    "componentIds": [
+      "cassette_1::CABLE_INTERCONNECT"
+    ],
+    "moduleIds": [],
+    "note": "Callout 1: Cable Interconnect. Dùng chung hình học cho các tag của cassette cùng loại."
+  },
+  {
+    "id": "cassette-map-142",
+    "photoId": "cassette-deposit-user-map",
+    "type": "rect",
+    "x": 62.57575757575757,
+    "y": 23.523898781630738,
+    "w": 3.5606060606060606,
+    "h": 7.1227741330834125,
+    "componentIds": [
+      "cassette_1::LOWER_MODULE_INTERCONNECT"
+    ],
+    "moduleIds": [],
+    "note": "Callout 8: Lower Module Interconnect. Dùng chung hình học cho các tag của cassette cùng loại."
+  },
+  {
+    "id": "cassette-map-143",
+    "photoId": "cassette-deposit-user-map",
+    "type": "rect",
+    "x": 30.0,
+    "y": 26.61668228678538,
+    "w": 6.0606060606060606,
+    "h": 5.623242736644799,
+    "componentIds": [
+      "cassette_1::PRISM"
+    ],
+    "moduleIds": [],
+    "note": "Callout 9: Prism. Dùng chung hình học cho các tag của cassette cùng loại."
+  },
+  {
+    "id": "cassette-map-127",
+    "photoId": "cassette-recycler-user-map",
+    "type": "rect",
+    "x": 25.303030303030305,
+    "y": 31.850675138999208,
+    "w": 5.93939393939394,
+    "h": 6.481334392374902,
+    "componentIds": [
+      "cassette_2::CP2C",
+      "cassette_3::CP3C",
+      "cassette_4::CP4C",
+      "cassette_5::CP5C"
+    ],
+    "moduleIds": [],
+    "note": "Callout 2: Lid Open. Dùng chung hình học cho các tag của cassette cùng loại.",
+    "originalSensorBounds": {
+      "w": 3.7121212121212124,
+      "h": 4.0508339952343135
+    }
+  },
+  {
+    "id": "cassette-map-128",
+    "photoId": "cassette-recycler-user-map",
+    "type": "rect",
+    "x": 23.56060606060606,
+    "y": 32.64495631453534,
+    "w": 4.484848484848485,
+    "h": 5.464654487688642,
+    "componentIds": [
+      "cassette_2::CE2C",
+      "cassette_3::CE3C",
+      "cassette_4::CE4C",
+      "cassette_5::CE5C"
+    ],
+    "moduleIds": [],
+    "note": "Callout 3: Theo ký hiệu CExC. Dùng chung hình học cho các tag của cassette cùng loại.",
+    "originalSensorBounds": {
+      "w": 2.803030303030303,
+      "h": 3.415409054805401
+    }
+  },
+  {
+    "id": "cassette-map-129",
+    "photoId": "cassette-recycler-user-map",
+    "type": "rect",
+    "x": 26.89393939393939,
+    "y": 34.39237490071485,
+    "w": 4.363636363636363,
+    "h": 5.210484511517078,
+    "componentIds": [
+      "cassette_2::CO2C",
+      "cassette_3::CO3C",
+      "cassette_4::CO4C",
+      "cassette_5::CO5C"
+    ],
+    "moduleIds": [],
+    "note": "Callout 4: Theo ký hiệu COxC. Dùng chung hình học cho các tag của cassette cùng loại.",
+    "originalSensorBounds": {
+      "w": 2.727272727272727,
+      "h": 3.2565528196981735
+    }
+  },
+  {
+    "id": "cassette-map-130",
+    "photoId": "cassette-recycler-user-map",
+    "type": "rect",
+    "x": 26.89393939393939,
+    "y": 37.013502779984115,
+    "w": 4.606060606060606,
+    "h": 5.845909451945989,
+    "componentIds": [
+      "cassette_2::CV2C",
+      "cassette_3::CV3C",
+      "cassette_4::CV4C",
+      "cassette_5::CV5C"
+    ],
+    "moduleIds": [],
+    "note": "Callout 5: Theo ký hiệu CVxC. Dùng chung hình học cho các tag của cassette cùng loại.",
+    "originalSensorBounds": {
+      "w": 2.878787878787879,
+      "h": 3.653693407466243
+    }
+  },
+  {
+    "id": "cassette-map-131",
+    "photoId": "cassette-recycler-user-map",
+    "type": "rect",
+    "x": 27.8030303030303,
+    "y": 43.68546465448769,
+    "w": 11.757575757575758,
+    "h": 11.818903891977762,
+    "componentIds": [
+      "cassette_2::CL2S",
+      "cassette_2::CR2S",
+      "cassette_3::CL3S",
+      "cassette_3::CR3S",
+      "cassette_4::CL4S",
+      "cassette_4::CR4S",
+      "cassette_5::CL5S",
+      "cassette_5::CR5S"
+    ],
+    "moduleIds": [],
+    "note": "Callout 6: Cassette Entry. Dùng chung hình học cho các tag của cassette cùng loại.",
+    "originalSensorBounds": {
+      "w": 7.348484848484849,
+      "h": 7.386814932486101
+    }
+  },
+  {
+    "id": "cassette-map-132",
+    "photoId": "cassette-recycler-user-map",
+    "type": "rect",
+    "x": 33.56060606060606,
+    "y": 39.237490071485304,
+    "w": 5.575757575757577,
+    "h": 4.320889594916601,
+    "componentIds": [
+      "cassette_2::T2S",
+      "cassette_3::T3S",
+      "cassette_4::T4S",
+      "cassette_5::T5S"
+    ],
+    "moduleIds": [],
+    "note": "Callout 7: Transport — TxS. Dùng chung hình học cho các tag của cassette cùng loại.",
+    "originalSensorBounds": {
+      "w": 3.4848484848484853,
+      "h": 2.7005559968228754
+    }
+  },
+  {
+    "id": "cassette-map-133",
+    "photoId": "cassette-recycler-user-map",
+    "type": "rect",
+    "x": 36.43939393939394,
+    "y": 42.17633042096902,
+    "w": 5.93939393939394,
+    "h": 4.575059571088166,
+    "componentIds": [
+      "cassette_2::T2S",
+      "cassette_3::T3S",
+      "cassette_4::T4S",
+      "cassette_5::T5S"
+    ],
+    "moduleIds": [],
+    "note": "Callout 7: Transport — TxS. Dùng chung hình học cho các tag của cassette cùng loại.",
+    "originalSensorBounds": {
+      "w": 3.7121212121212124,
+      "h": 2.8594122319301034
+    }
+  },
+  {
+    "id": "cassette-map-134",
+    "photoId": "cassette-recycler-user-map",
+    "type": "rect",
+    "x": 36.666666666666664,
+    "y": 39.15806195393169,
+    "w": 4.606060606060606,
+    "h": 5.972994440031772,
+    "componentIds": [
+      "cassette_2::NE2C",
+      "cassette_3::NE3C",
+      "cassette_4::NE4C",
+      "cassette_5::NE5C"
+    ],
+    "moduleIds": [],
+    "note": "Callout 8: Nearly Empty. Dùng chung hình học cho các tag của cassette cùng loại.",
+    "originalSensorBounds": {
+      "w": 2.878787878787879,
+      "h": 3.733121525019857
+    }
+  },
+  {
+    "id": "cassette-map-135",
+    "photoId": "cassette-recycler-user-map",
+    "type": "rect",
+    "x": 72.04545454545455,
+    "y": 35.74265289912629,
+    "w": 4.848484848484849,
+    "h": 4.956314535345513,
+    "componentIds": [
+      "cassette_2::NF2C",
+      "cassette_3::NF3C",
+      "cassette_4::NF4C",
+      "cassette_5::NF5C"
+    ],
+    "moduleIds": [],
+    "note": "Callout 9: Nearly Full. Dùng chung hình học cho các tag của cassette cùng loại.",
+    "originalSensorBounds": {
+      "w": 3.0303030303030303,
+      "h": 3.0976965845909454
+    }
+  },
+  {
+    "id": "cassette-map-136",
+    "photoId": "cassette-recycler-user-map",
+    "type": "rect",
+    "x": 65.75757575757576,
+    "y": 32.80381254964257,
+    "w": 4.363636363636363,
+    "h": 4.956314535345513,
+    "componentIds": [
+      "cassette_2::CF2C",
+      "cassette_3::CF3C",
+      "cassette_4::CF4C",
+      "cassette_5::CF5C"
+    ],
+    "moduleIds": [],
+    "note": "Callout 10: Full. Dùng chung hình học cho các tag của cassette cùng loại.",
+    "originalSensorBounds": {
+      "w": 2.727272727272727,
+      "h": 3.0976965845909454
+    }
+  },
+  {
+    "id": "cassette-map-137",
+    "photoId": "cassette-recycler-user-map",
+    "type": "rect",
+    "x": 30.606060606060602,
+    "y": 25.09928514694202,
+    "w": 3.3333333333333335,
+    "h": 2.779984114376489,
+    "componentIds": [
+      "cassette_2::C2MG",
+      "cassette_3::C3MG",
+      "cassette_4::C4MG",
+      "cassette_5::C5MG"
+    ],
+    "moduleIds": [],
+    "note": "Callout 13: Solenoid position. Dùng chung hình học cho các tag của cassette cùng loại."
+  },
+  {
+    "id": "cassette-map-138",
+    "photoId": "cassette-recycler-user-map",
+    "type": "rect",
+    "x": 27.34848484848485,
+    "y": 26.76727561556791,
+    "w": 5.757575757575758,
+    "h": 4.289118347895156,
+    "componentIds": [
+      "cassette_2::SOLENOID_UNCODED",
+      "cassette_3::SOLENOID_UNCODED",
+      "cassette_4::SOLENOID_UNCODED",
+      "cassette_5::SOLENOID_UNCODED"
+    ],
+    "moduleIds": [],
+    "note": "Callout 1: Solenoid — không ghi mã trên hình. Dùng chung hình học cho các tag của cassette cùng loại."
+  },
+  {
+    "id": "cassette-map-139",
+    "photoId": "cassette-recycler-user-map",
+    "type": "rect",
+    "x": 65.07575757575758,
+    "y": 27.08498808578237,
+    "w": 3.4090909090909087,
+    "h": 6.036536934074663,
+    "componentIds": [
+      "cassette_2::LOWER_MODULE_INTERCONNECT",
+      "cassette_3::LOWER_MODULE_INTERCONNECT",
+      "cassette_4::LOWER_MODULE_INTERCONNECT",
+      "cassette_5::LOWER_MODULE_INTERCONNECT"
+    ],
+    "moduleIds": [],
+    "note": "Callout 11: Lower Module Interconnect. Dùng chung hình học cho các tag của cassette cùng loại."
+  },
+  {
+    "id": "cassette-map-140",
+    "photoId": "cassette-recycler-user-map",
+    "type": "rect",
+    "x": 34.46969696969697,
+    "y": 27.323272438443208,
+    "w": 6.4393939393939394,
+    "h": 4.209690230341541,
+    "componentIds": [
+      "cassette_2::PRISM",
+      "cassette_3::PRISM",
+      "cassette_4::PRISM",
+      "cassette_5::PRISM"
+    ],
+    "moduleIds": [],
+    "note": "Callout 12: Prism. Dùng chung hình học cho các tag của cassette cùng loại."
+  }
+]
