@@ -127,10 +127,11 @@ function decodeMData(value){
  const hex=String(value).replace(/[^0-9a-f]/gi,'').toUpperCase().slice(0,36),bytes=hex.match(/.{2}/g)||[];
  const code23=bytes.length>=3?bytes[1]+bytes[2]:'',code=bytes.length>=5?bytes[3]+bytes[4]:'';
  const lookup=lookupError(code),entry=tables.commands[code23];let moduleName='Unknown';
- if(bytes.length>=10){const b4=bytes[3],b10=bytes[9];if(/^[8-E]/.test(b4)||(b4==='2F'&&/^<Cassette>/i.test(lookup?.item?.title||'')))moduleName=({'07':'Cassette 1','10':'Cassette 2','13':'Cassette 3','16':'Cassette 4','19':'Cassette 5'})[b10]||'Unknown';else{const m=lookupModuleByte(b10);moduleName=m?.command??m??'Unknown';}}
+ if(bytes.length>=10){const m=lookupModuleByte(bytes[9]);moduleName=m?.command??m??'Unknown';}
  const module=moduleFromName(moduleName);const sm=tables.statusMessages[bytes[11]];
  const num=i=>bytes[i]===undefined?'—':parseInt(bytes[i],16);
- const fields={'Nhiệt độ':bytes[5]?num(5)+' °C':'—','Độ ẩm':bytes[6]?num(6)+' %':'—','Mode':bytes[7]===undefined?'—':({'00':'I/O','01':'DIAG'})[bytes[7]]||'Unknown','Universal ID':num(8),'Module ID (Byte 10)':bytes[9]===undefined?'—':bytes[9]+' (HEX) / '+num(9)+' (DEC)','Module':bytes.length>=10?moduleName:'—','Message ID':num(10),'Status Message':sm?.command??sm??(bytes[11]?'Unknown':'—'),'Additional Byte':num(12),'Device Variant':bytes[13]?decodeDeviceVariant(bytes[13]):'—','Component Version':bytes.length>=18?bytes.slice(14,18).map(b=>parseInt(b,16)).join('.'):'—'};
+ const commandCode=tables.commandCodes?.[String(parseInt(bytes[0],16))];
+ const fields={'Command Code (Byte 1)':bytes[0]===undefined?'—':(commandCode?.command??commandCode??'Unknown'),'Nhiệt độ':bytes[5]?num(5)+' °C':'—','Độ ẩm':bytes[6]?num(6)+' %':'—','Mode':bytes[7]===undefined?'—':({'00':'I/O','01':'DIAG'})[bytes[7]]||'Unknown','Universal ID':num(8),'Module ID (Byte 10)':bytes[9]===undefined?'—':bytes[9]+' (HEX) / '+num(9)+' (DEC)','Module':bytes.length>=10?moduleName:'—','Message ID':num(10),'Status Message':sm?.command??sm??(bytes[11]?'Unknown':'—'),'Additional Byte':num(12),'Device Variant':bytes[13]?decodeDeviceVariant(bytes[13]):'—','Component Version':bytes.length>=18?bytes.slice(14,18).map(b=>parseInt(b,16)).join('.'):'—'};
  return {hex,bytes,complete:hex.length===36,code,code23,command:entry?.command??entry??(code23?'Unknown':'—'),moduleName,moduleId:module?.id||'',variant:bytes[13]||'',matchedCode:lookup?.matchedCode||'',item:lookup?.item||null,groups:groupTags(lookup?.item),fields};
 }
 function regionsFor(id){const rows=project.regions.filter(r=>r.photoId===id&&(!diagnosticView()||r.diagnosticVisible!==false));return !diagnosticView()?rows:rows.map(r=>({...r,componentIds:r.componentIds.filter(componentVisible),moduleIds:r.moduleIds.filter(id=>recordVisible(mod(id)))})).filter(r=>r.componentIds.length||r.moduleIds.length);}
@@ -215,6 +216,7 @@ function ensureContextParts(c){
 function renderByteDescription(c){
  const f=c.fields;
  const lines=[
+ ['Command (Byte 1): '+f['Command Code (Byte 1)']],
  ['🌡 Temp: '+f['Nhiệt độ'],'💧 Humidity: '+f['Độ ẩm']],
  ['Mode: '+f.Mode,'UID: '+f['Universal ID']],
  ['Module: '+f.Module,'MsgID: '+f['Message ID']],
@@ -721,6 +723,18 @@ async function boot(){
  try{storage=await openStorage();const saved=await new Promise((resolve,reject)=>{const r=storage.transaction('snapshots','readonly').objectStore('snapshots').get(project.documentId);r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});if(saved?.tables){await new Promise((resolve,reject)=>{const t=storage.transaction('snapshots','readwrite');t.objectStore('snapshots').put({project:saved.project},project.documentId);t.oncomplete=resolve;t.onerror=()=>reject(t.error);});}if(saved&&saved.project.updatedAt>project.updatedAt){validateProject(saved.project);project=saved.project;moduleId=mod(moduleId)?moduleId:project.modules[0].id;photoId=availablePhotos(moduleId).some(p=>p.id===photoId)?photoId:bestPhoto(moduleId)?.id||'';imageToken='';renderWorkspace();$('saveState').textContent='Đã khôi phục bản lưu trên máy';}}
  catch(e){$('saveState').textContent='Bấm Lưu file Editor để giữ thay đổi';}
 }
-boot();
+await boot();
+// Optional log reader: failure here never disables manual diagnostics.
+if(!editorMode&&diagnosticReady){
+ const loadScript=src=>new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=src;s.onload=resolve;s.onerror=()=>reject(Error('Không tải được '+src));document.body.appendChild(s);});
+ try{
+  await loadScript('js/device_log_core.js?v=20261013');
+  await loadScript('js/device_log_panel.js?v=20261013');
+  window.SRUDeviceLogPanel.mount({
+   host:$('decoder'),getStatus:code=>tables.statuses[code]||'Unknown',
+   apply:row=>{if(!diagnosticReady)throw Error('Diagnostic chưa sẵn sàng.');const value=window.SRUDeviceLogCore.selection(row);$('mdata').value=value.mdata;$('mstatus').value=value.mstatus;refreshDiagnosticInput();}
+  });
+ }catch(e){const note=document.createElement('p');note.className='notice';note.textContent='Chưa mở được chức năng đọc log. Hãy chép đủ js/device_log_core.js và js/device_log_panel.js. Bạn vẫn có thể nhập mã trực tiếp.';$('decoder').appendChild(note);}
+}
 })();
 

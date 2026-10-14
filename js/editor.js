@@ -127,10 +127,11 @@ function decodeMData(value){
  const hex=String(value).replace(/[^0-9a-f]/gi,'').toUpperCase().slice(0,36),bytes=hex.match(/.{2}/g)||[];
  const code23=bytes.length>=3?bytes[1]+bytes[2]:'',code=bytes.length>=5?bytes[3]+bytes[4]:'';
  const lookup=lookupError(code),entry=tables.commands[code23];let moduleName='Unknown';
- if(bytes.length>=10){const b4=bytes[3],b10=bytes[9];if(/^[8-E]/.test(b4)||(b4==='2F'&&/^<Cassette>/i.test(lookup?.item?.title||'')))moduleName=({'07':'Cassette 1','10':'Cassette 2','13':'Cassette 3','16':'Cassette 4','19':'Cassette 5'})[b10]||'Unknown';else{const m=lookupModuleByte(b10);moduleName=m?.command??m??'Unknown';}}
+ if(bytes.length>=10){const m=lookupModuleByte(bytes[9]);moduleName=m?.command??m??'Unknown';}
  const module=moduleFromName(moduleName);const sm=tables.statusMessages[bytes[11]];
  const num=i=>bytes[i]===undefined?'—':parseInt(bytes[i],16);
- const fields={'Nhiệt độ':bytes[5]?num(5)+' °C':'—','Độ ẩm':bytes[6]?num(6)+' %':'—','Mode':bytes[7]===undefined?'—':({'00':'I/O','01':'DIAG'})[bytes[7]]||'Unknown','Universal ID':num(8),'Module ID (Byte 10)':bytes[9]===undefined?'—':bytes[9]+' (HEX) / '+num(9)+' (DEC)','Module':bytes.length>=10?moduleName:'—','Message ID':num(10),'Status Message':sm?.command??sm??(bytes[11]?'Unknown':'—'),'Additional Byte':num(12),'Device Variant':bytes[13]?decodeDeviceVariant(bytes[13]):'—','Component Version':bytes.length>=18?bytes.slice(14,18).map(b=>parseInt(b,16)).join('.'):'—'};
+ const commandCode=tables.commandCodes?.[String(parseInt(bytes[0],16))];
+ const fields={'Command Code (Byte 1)':bytes[0]===undefined?'—':(commandCode?.command??commandCode??'Unknown'),'Nhiệt độ':bytes[5]?num(5)+' °C':'—','Độ ẩm':bytes[6]?num(6)+' %':'—','Mode':bytes[7]===undefined?'—':({'00':'I/O','01':'DIAG'})[bytes[7]]||'Unknown','Universal ID':num(8),'Module ID (Byte 10)':bytes[9]===undefined?'—':bytes[9]+' (HEX) / '+num(9)+' (DEC)','Module':bytes.length>=10?moduleName:'—','Message ID':num(10),'Status Message':sm?.command??sm??(bytes[11]?'Unknown':'—'),'Additional Byte':num(12),'Device Variant':bytes[13]?decodeDeviceVariant(bytes[13]):'—','Component Version':bytes.length>=18?bytes.slice(14,18).map(b=>parseInt(b,16)).join('.'):'—'};
  return {hex,bytes,complete:hex.length===36,code,code23,command:entry?.command??entry??(code23?'Unknown':'—'),moduleName,moduleId:module?.id||'',variant:bytes[13]||'',matchedCode:lookup?.matchedCode||'',item:lookup?.item||null,groups:groupTags(lookup?.item),fields};
 }
 function regionsFor(id){const rows=project.regions.filter(r=>r.photoId===id&&(!diagnosticView()||r.diagnosticVisible!==false));return !diagnosticView()?rows:rows.map(r=>({...r,componentIds:r.componentIds.filter(componentVisible),moduleIds:r.moduleIds.filter(id=>recordVisible(mod(id)))})).filter(r=>r.componentIds.length||r.moduleIds.length);}
@@ -221,7 +222,7 @@ function commandDescription(c){
 function renderDecode(){
  const c=decodeMData($('mdata').value),previous=context;context=c;
  $('byteCount').textContent=`${c.bytes.length}/18 byte`+(c.hex.length%2?' · byte cuối chưa đủ 2 ký tự':'')+(c.complete?' · đủ dữ liệu':'');
- $('descriptionResult').innerHTML=commandDescription(c)+'<dl>'+Object.entries(c.fields).map(([k,v])=>`<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')+'</dl>'+((c.item?.description||[]).map(t=>`<div>${esc(t)}</div>`).join('')||'<p>Chưa có mô tả.</p>');
+ $('descriptionResult').innerHTML=commandDescription(c)+'<div class="errorTitle">'+esc(c.item?.title||(c.code?'Unknown':'—'))+'</div><dl>'+Object.entries(c.fields).map(([k,v])=>`<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')+'</dl>'+((c.item?.description||[]).map(t=>`<div>${esc(t)}</div>`).join('')||'<p>Chưa có mô tả.</p>');
  if(c.code23&&$('descriptionDetails'))$('descriptionDetails').open=true;
  const ids=ensureContextParts(c);
  const changed=!previous||[previous.code,previous.moduleId,previous.variant,previous.code23].join('|')!==[c.code,c.moduleId,c.variant,c.code23].join('|');
@@ -842,10 +843,10 @@ function lookupLoad(code){
  $('lookupCode').value=code??'';$('lookupTitleField').hidden=!isError;$('lookupTitle').value=item?.title||'';
  $('lookupText').value=isError?(item?.description||[]).join('\n'):lookupLabel(item);
  $('lookupTextLabel').textContent=isError?'Mô tả và hướng dẫn xử lý (mỗi mục một dòng)':'Nội dung hiển thị';
- $('lookupEditHint').textContent=isError?'Các dòng Main:, Connector:, Sensor:, Motor/Solenoid: xác định linh kiện liên kết. How to detect:, Category: và Guide: chứa nội dung chẩn đoán. Nội dung sau dòng Guide: thuộc hướng dẫn xử lý.':lookupTable==='statuses'?'MStatus dùng mã thập phân 00–99.':lookupTable==='modules'?'Module ID dùng số thập phân (ví dụ 4 = Bill Validation devices).':'Mã lệnh gồm 4 ký tự hex; Status Message gồm 2 ký tự hex.';
+ $('lookupEditHint').textContent=isError?'Các dòng Main:, Connector:, Sensor:, Motor/Solenoid: xác định linh kiện liên kết. How to detect:, Category: và Guide: chứa nội dung chẩn đoán. Nội dung sau dòng Guide: thuộc hướng dẫn xử lý.':lookupTable==='statuses'?'MStatus dùng mã thập phân 00–99.':lookupTable==='commandCodes'?'Command Code dùng số thập phân; byte 1 đầu vào được đổi từ HEX sang DEC.':lookupTable==='modules'?'Module ID dùng số thập phân (ví dụ 4 = Bill Validation devices).':'Mã lệnh gồm 4 ký tự hex; Status Message gồm 2 ký tự hex.';
  $('lookupDelete').disabled=code===null;$('lookupRows').value=code??'';lookupMessage(code===null?'Nhập mã và nội dung mới.':'Đang sửa mã '+code+'.');
 }
-function resetLookupEditor(type=lookupTable){lookupReady=true;lookupTable=type;$('lookupTable').value=type;$('lookupSearch').value='';lookupCode=null;lookupList();lookupLoad(Object.keys(tables[type]).sort()[0]??null);}
+function resetLookupEditor(type=lookupTable){tables.commandCodes=tables.commandCodes||{};if(!$('lookupTable').querySelector('option[value="commandCodes"]')){const option=document.createElement('option');option.value='commandCodes';option.textContent='Command Code · Byte 1 (DEC)';$('lookupTable').appendChild(option);}lookupReady=true;lookupTable=type;$('lookupTable').value=type;$('lookupSearch').value='';lookupCode=null;lookupList();lookupLoad(Object.keys(tables[type]).sort()[0]??null);}
 function lookupDiscard(){return !lookupDraftDirty||confirm('Dòng đang sửa chưa lưu. Bỏ nội dung đang nhập?');}
 function lookupAction(action){
  try{
@@ -858,6 +859,7 @@ function lookupAction(action){
  let code=$('lookupCode').value.trim().toUpperCase();
  if(lookupTable==='errors'&&(!/^[0-9A-F]{1,4}\*{0,3}$/.test(code)||code.length!==4))throw Error('Mã lỗi cần 4 ký tự hex, có thể dùng * ở cuối (ví dụ 05**).');
  if(lookupTable==='statuses'){if(!/^\d{1,2}$/.test(code))throw Error('MStatus cần mã 00–99.');code=code.padStart(2,'0');}
+ if(lookupTable==='commandCodes'){if(!/^\d{1,3}$/.test(code)||Number(code)>255)throw Error('Command Code cần số thập phân 0–255.');code=String(Number(code));}
  if(lookupTable==='modules'){if(!/^\d{1,3}$/.test(code)||Number(code)>255)throw Error('Module ID cần số thập phân 0–255.');code=String(Number(code));}
  if(lookupTable==='commands'&&!/^[0-9A-F]{4}$/.test(code))throw Error('Mã lệnh cần 4 ký tự hex.');
  if(lookupTable==='statusMessages'&&!/^[0-9A-F]{2}$/.test(code))throw Error('Status Message cần 2 ký tự hex.');
