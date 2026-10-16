@@ -728,13 +728,14 @@ await boot();
 if(!editorMode&&diagnosticReady){
  const loadScript=src=>new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=src;s.onload=resolve;s.onerror=()=>reject(Error('Không tải được '+src));document.body.appendChild(s);});
  try{
-  await loadScript('js/device_log_core.js?v=20261013');
-  await loadScript('js/device_log_panel.js?v=20261013');
+  await loadScript('js/device_log_core.js?v=20261015-log-top-v2');
+  await loadScript('data/device_mstatus.js?v=20261016-log-compact');
+  await loadScript('js/device_log_panel.js?v=20261016-log-compact');
   window.SRUDeviceLogPanel.mount({
-   host:$('decoder'),getStatus:code=>tables.statuses[code]||'Unknown',
+   host:$('deviceLogHost')||document.querySelector('main'),selectionHost:$('decoder'),getStatus:code=>tables.statuses[code]||'Unknown',
    apply:row=>{if(!diagnosticReady)throw Error('Diagnostic chưa sẵn sàng.');const value=window.SRUDeviceLogCore.selection(row);$('mdata').value=value.mdata;$('mstatus').value=value.mstatus;refreshDiagnosticInput();}
   });
- }catch(e){const note=document.createElement('p');note.className='notice';note.textContent='Chưa mở được chức năng đọc log. Hãy chép đủ js/device_log_core.js và js/device_log_panel.js. Bạn vẫn có thể nhập mã trực tiếp.';$('decoder').appendChild(note);}
+ }catch(e){const note=document.createElement('p');note.className='notice';note.textContent='Chưa mở được chức năng đọc log. Hãy chép đủ js/device_log_core.js, js/device_log_panel.js và data/device_mstatus.js. Bạn vẫn có thể nhập mã trực tiếp.';const logHost=$('deviceLogHost');if(logHost)logHost.replaceChildren(note);else document.querySelector('main').prepend(note);}
 }
 })();
 
