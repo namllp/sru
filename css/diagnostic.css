@@ -368,14 +368,24 @@ body[data-diagnostic-tab=dispenser] .diagnostic-nav{--diagnostic-nav-count:1!imp
 #decoder .fault-line .fault-unmapped,
 #dispenserPanel .dispenser-field .s2-image-link{
  display:inline-block;min-height:0;min-width:0;max-width:100%;margin:3px 0;padding:5px 10px;
- border:1px solid #6baec9;border-radius:8px;background:#173e52;color:#d2f3ff;
+ border:1px solid var(--fault-link-border);border-radius:8px;background:#173e52;color:#d2f3ff;
  font:inherit;font-weight:750;line-height:1.5;vertical-align:baseline;
  white-space:normal;overflow-wrap:anywhere;box-shadow:none;
 }
 #decoder .fault-line .fault-value:hover,
 #dispenserPanel .dispenser-field .s2-image-link:hover{
- background:#24576e;border-color:#9dd9ef;color:#ecfaff;filter:none;text-decoration:none;
+ background:#24576e;border-color:var(--fault-link-hover-border);color:#ecfaff;filter:none;text-decoration:none;
 }
 #decoder .fault-line .fault-value:focus-visible,
 #dispenserPanel .dispenser-field .s2-image-link:focus-visible{outline:2px solid #b8eaff;outline-offset:3px}
 #decoder .description .fault-line{border:0}
+
+/* A single border accent shared with the decoded fault values. */
+:root{--fault-link-border:#6baec9;--fault-link-hover-border:#9dd9ef}
+#componentList .component-pill,
+#componentList .component-pill[data-kind]{border:1px solid var(--fault-link-border);background:var(--surface);color:var(--text);box-shadow:none}
+#componentList .component-pill:hover{border-color:var(--fault-link-hover-border);background:var(--surface);color:var(--text)}
+#componentList .component-pill[aria-pressed=true]{border-color:var(--fault-link-border);background:var(--surface);color:var(--text);outline:2px solid var(--fault-link-border);outline-offset:2px;box-shadow:none}
+#componentList .component-pill small,
+#componentList .component-pill[aria-pressed=true] small{color:var(--muted)}
+#componentList .component-pill:focus-visible{outline:2px solid #b8eaff;outline-offset:3px}
