@@ -1,0 +1,46 @@
+.dispenser-field.s2-linked-field{border-bottom-color:#508a98}
+.s2-linked-field dt{color:#c2e8f2;font-weight:700}
+.s2-image-link{display:inline-block;text-align:left;font-size:18px;font-weight:750;line-height:1.5;color:#9aeeff;background:#103746;border:1px solid #5ab5cb;padding:9px 13px;border-radius:9px;max-width:100%;overflow-wrap:anywhere}
+.s2-image-link:hover{background:#1a4d5b;color:#e0faff;text-decoration:underline;text-underline-offset:4px}
+.s2-image-link:focus-visible{outline:3px solid #fff;outline-offset:3px}
+#s2ImageDialog{width:min(1100px,96vw);max-width:96vw;max-height:92vh;max-height:92dvh;padding:0;overflow:hidden;background:#0d1d2b;color:#edf7ff;border:1px solid #456a81;border-radius:14px}
+#s2ImageDialog[open]{display:flex;flex-direction:column}
+#s2ImageDialog::backdrop{background:#020a14d9}
+body.s2-image-open{overflow:hidden}
+.s2-image-head{flex:none;display:flex;align-items:center;gap:16px;justify-content:space-between;background:#183143;border-bottom:1px solid #456a81;padding:14px 18px;padding-top:max(14px,env(safe-area-inset-top))}
+.s2-image-head h2{font-size:18px;line-height:1.5;margin:0;overflow-wrap:anywhere;min-width:0}
+#s2ImageClose{flex-shrink:0;min-height:46px;min-width:88px;border:1px solid #77a5ba;border-radius:9px;background:#244d60;color:#fff;font-size:16px;font-weight:700;padding:10px 14px}
+.s2-image-body{min-height:0;overflow:auto;padding:18px;padding-bottom:max(18px,env(safe-area-inset-bottom))}
+#s2ImageFrame{background:#07131f;border:1px solid #294356;border-radius:10px;overflow:hidden}
+#s2Image{display:block;width:100%;height:min(62vh,650px);height:min(62dvh,650px);object-fit:contain;background:#07131f}
+#s2ImageError,#s2ImageEmpty{padding:18px;line-height:1.7;color:#d9e8f6}
+#s2ImageNavigation{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:14px}
+#s2ImageNavigation button{background:#1c3849;border:1px solid #55778c;border-radius:9px;padding:10px 12px;min-height:44px;color:#edf7ff;font-size:15px}
+#s2ImageNavigation button:disabled{opacity:.45;cursor:default}
+#s2ImagePosition{color:#d8eaf5;white-space:nowrap;font-size:14px}
+#s2ImageCaption{margin:12px 0 0;font-size:16px;line-height:1.5;color:#e5f5ff;overflow-wrap:anywhere}
+#s2ImageDialog [hidden]{display:none!important}
+.s2-editor-help{font-size:14px;line-height:1.65}
+.s2-catalog{border:1px solid #4d6f81;padding:16px;border-radius:12px;margin:16px 0;background:#102633}
+.s2-catalog-summary{color:#acf4e2;font-size:15px;font-weight:700;line-height:1.6;margin:0 0 14px}
+.s2-catalog-items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}
+.s2-catalog-item{display:flex;align-items:center;justify-content:space-between;gap:12px;text-align:left;min-height:62px;min-width:0;padding:12px;border:1px solid #48677b;border-radius:10px;background:#1b3546;color:#edf7ff}
+.s2-catalog-item strong{font-size:15px;line-height:1.45;overflow-wrap:anywhere;min-width:0}
+.s2-catalog-item span{font-size:13px;white-space:nowrap;color:#bfd2df;flex-shrink:0}
+.s2-catalog-item:hover{background:#265365}
+.s2-catalog-item.is-selected{background:#16554e;border:2px solid #8de7c9}
+.s2-catalog-item:focus-visible{outline:3px solid #fff;outline-offset:2px}
+.s2-custom-code{margin:16px 0;border-bottom:1px solid #48677b;padding-bottom:12px}
+.s2-custom-code summary{cursor:pointer;padding:10px 0;font-size:15px;font-weight:600}
+@media(max-width:600px){.s2-catalog{padding:12px}.s2-catalog-items{grid-template-columns:1fr}.s2-catalog-item strong{font-size:16px}}
+.s2-editor-target{padding:12px;background:#133f49;color:#ddfaff;border-radius:9px;font-weight:700;overflow-wrap:anywhere}
+.s2-editor-photos{display:grid;gap:18px;margin-top:18px}
+.s2-editor-photo{border:1px solid #4d6f81;border-radius:12px;padding:14px;min-width:0}
+.s2-editor-photo>img{display:block;width:100%;height:210px;object-fit:contain;background:#0b1c29;border-radius:8px;margin-bottom:12px}
+.s2-editor-photo .file-button{margin-top:10px}
+.work-area.s2-images-editing{display:block}
+.work-area.s2-images-editing>#visualWorkspace{display:none}
+.work-area.s2-images-editing>#editor{position:static;max-height:none;width:100%}
+.s2-images-editing #editorContent{max-width:900px;margin:auto}
+@media(min-width:850px){.s2-editor-photos{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){#s2ImageDialog{width:96vw;max-height:94vh;max-height:94dvh}.s2-image-head{padding:12px;gap:10px}.s2-image-head h2{font-size:15px}.s2-image-body{padding:12px}#s2Image{height:55vh;height:55dvh}#s2ImageNavigation{gap:8px}#s2ImageNavigation button{font-size:14px;padding:8px}.s2-image-link{font-size:17px}.s2-images-editing input,.s2-images-editing select{font-size:16px}}
